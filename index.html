@@ -18,15 +18,14 @@
           </li>
 
           <li class="header__links-list-item">
-            <a href="#">посмотреть лоты</a>
+            <a href="#to_lots">посмотреть лоты</a>
           </li>
 
           <li class="header__links-list-item">
-            <a href="#">об аукционе</a>
+            <a href="#to_about">об аукционе</a>
           </li>
         </ul>
       </nav>
-
       <a>
         <img 
           class="header__logo"
@@ -36,8 +35,8 @@
           alt="Логотип Оно тебе надо">
       </a>
       <address class="header__address">
-        <a class="underline-item" href="#">+9 999 555 5555</a>
-        <a class="underline-item" href="#">info@sobaka.ge</a>
+        <a class="underline-item" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline-item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265. Амстердам</p>
       </address>
       </div>
@@ -45,16 +44,16 @@
     <main>
       <div class="main__cover">
         <h1 class="main__cover-title">
-          <p class="main__cover-title-text top-left">ОНО</p>
-          <p class="main__cover-title-text">ТЕБЕ</p>
-          <p class="main__cover-title-text bottom-right">НАДО</p>
+          <span class="main__cover-title-text top-left">ОНО</span>
+          <span class="main__cover-title-text">ТЕБЕ</span>
+          <span class="main__cover-title-text bottom-right">НАДО</span>
         </h1>
         <div class="main__description">
           <p class="main__description-text">Аукцион вещей, в которые никто не верил</p>
           <button class="main__description-button" type="button">Сделать ставку</button>
         </div>
       </div>
-      <div class="main__lots">
+      <div class="main__lots" id="to_lots">
         <h2 class="main__lots-title">Лоты</h2>
         <ul class="main__lots-list">
 
@@ -75,7 +74,7 @@
         </ul>
         <a href="#" class="underline-item main__lots-footer">посмотреть больше</p></a>
       </div>
-      <div class="main__about">
+      <div class="main__about" id="to_about">
         <div class="black-circle">
           <img 
           class="main__about-logo"
@@ -95,8 +94,8 @@
 
     <footer class="footer">
       <address class="footer__address">
-        <a class="underline-item" href="#">+9 999 555 5555</a>
-        <a class="underline-item" href="#">info@sobaka.ge</a>
+        <a class="underline-item" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="underline-item" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265. Амстердам</p>
       </address>
       <ul class="footer__list">
@@ -105,35 +104,47 @@
         </li>
 
         <li>
-          <a href="#" class="underline-item">посмотреть лоты</a>
+          <a href="#to_lots" class="underline-item">посмотреть лоты</a>
         </li>
         
         <li>
-          <a href="#" class="underline-item">об аукционе</a>
+          <a href="#to_about" class="underline-item">об аукционе</a>
         </li>
       </ul>
-      <div class="footer__social-icons">
-        <img 
-          class="footer__social-icons-item"
-          src="/images/yt.svg"
-          width="48"
-          height="48"
-          alt="Логотип Youtube">
+      <ul class="footer__social-icons">
+  <li>
+    <a href="https://youtube.com">
+      <img 
+        class="footer__social-icons-item"
+        src="/images/yt.svg"
+        width="48"
+        height="48"
+        alt="Логотип Youtube">
+    </a>
+  </li>
 
-        <img 
-          class="footer__social-icons-item"
-          src="/images/vk.svg"
-          width="48"
-          height="48"
-          alt="Логотип Оно тебе надо">
+  <li>
+    <a href="https://vk.com">
+      <img 
+        class="footer__social-icons-item"
+        src="/images/vk.svg"
+        width="48"
+        height="48"
+        alt="Логотип ВКонтакте">
+    </a>
+  </li>
 
-        <img 
-          class="footer__social-icons-item"
-          src="/images/pinterest.svg"
-          width="48"
-          height="48"
-          alt="Логотип Оно тебе надо">
-      </div>
+  <li>
+    <a href="https://pinterest.com">
+      <img 
+        class="footer__social-icons-item"
+        src="/images/pinterest.svg"
+        width="48"
+        height="48"
+        alt="Логотип Pinterest">
+    </a>
+  </li>
+</ul>
     </footer>
   </body>
 </html>
